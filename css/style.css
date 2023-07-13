@@ -1,0 +1,395 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #474747;
+    padding: 30px;
+    height: 27px;
+    width:auto
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 10px;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .logo {
+    margin-top: 50px;
+    align-self: center;
+    width: 200px;
+    height: auto;
+  }
+  .search {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 300px; 
+    margin-right: 110px;
+  }
+  .carrito {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 100;
+    top: 50;
+    right: 20px;
+  }
+  main {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  main h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 15px;
+  }
+  .carrousel{
+    width: 100%;
+  }
+  .img-carr{
+    width: 100%;
+  }
+  .tarjeta {
+    display: flex;
+    width: auto;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: #474747;
+    padding: 20px;
+  }
+  .tarjeta img {
+    width: 50%;
+    height: 99%;
+    margin-right: 20px;
+  }
+  .tarjeta h3 {
+    font-size: 60px;
+    margin-bottom: 400px;
+    margin-left: 40px;
+  }
+  .tarjeta ul {
+    list-style-type:circle;
+    padding: 0;
+    margin-top: 200px;
+  }
+  .tarjeta li {
+    margin-bottom: 5px;
+  }
+  .tarjeta button {
+    padding: 5px;
+    background-color: #555555;
+    border: solid color(#302f2f);
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 420px;
+    margin-right: 60px;
+  }
+  .tarjeta button a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+  .img-contain {
+    width: 100%;
+    max-width: 100%;
+    height: 650px;
+    margin-bottom: 20px;
+  }
+  .img-contain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main h3{
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 900;
+  }
+  .producto{
+    height: 550px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: #222222 solid 2px;
+    -webkit-box-shadow: 7px 9px 7px 0px rgba(0,0,0,0.87); 
+    box-shadow: 7px 9px 7px 0px rgba(0,0,0,0.87);
+    background: #333333;
+}
+  .producto img{
+    width: 100%;
+    height: 330px;
+    object-fit: contain;
+    margin: 30px 0px 0px 0px;
+  }
+  .producto button{
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #cccccc;
+    border: solid #222222 1px;
+    background-color: #474747;
+  }
+  .producto select{
+    width: 150px;
+    height: 25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: #cccccc;
+    border: solid #222222 1px;
+    background-color: #474747;
+  }
+  .producto p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .producto h4{
+    font-size: 25px;
+  }
+  .nosotros {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .nosotros h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .nosotros h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .nosotros p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .nosotros img.ice {
+    margin-left: 20px;
+    width: 450px;
+    height: 450px;
+  }
+  .contactosarriba{
+    display: flex;
+  }
+  .contac{
+    padding: 20px;
+    margin: 20px;
+  }
+  .redes-contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+    padding: 25px;
+  }
+  .redes-contactos div{
+    display: flex;
+    align-items: center;
+  }
+  .redes-contactos a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+  }
+  .redes-contactos a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+  }
+  .maps{
+    margin: 20px;
+    padding: 20px;
+  }
+  .sorteo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #700303;
+  }
+  .formsorteo{
+    display: grid;
+    width: 850px;
+    margin: 25px;
+    padding: 10px;
+    gap: 8px;
+    background-color: #222222;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .lb-nombre{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 21px;
+    color: #ffffff;
+  }
+  .in-nombre{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 21px;
+  }
+  .lb-apellido{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 21px;
+    color: #ffffff;
+  }
+  .in-apellido{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    height: 21px;
+  }
+  .lb-telefono{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 21px;
+    color: #ffffff;
+  }
+  .in-telefono{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 21px;
+  }
+  .lb-porque{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 21px;
+    color: #ffffff;
+  }
+  .ta-porque{
+    grid-column: 4/5;
+    grid-row: 2/4;
+  }
+  .lb-email{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 21px;
+    color: #ffffff;
+  }
+  .in-email{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    height: 21px;
+  }
+  .boton{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    padding: 7px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #181818;
+  }
+  
+  
+
+  .formsorteo input, textarea {
+    background-color: #555555;
+    border: none;
+  }
+  .formsorteo input:focus, textarea:focus {
+    background-color: #555555;
+    border: solid #c4c4c4 1px;
+  
+  }
+
+  footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #302f2f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "izq der";
+    padding: 25px;
+  }
+  .izq{
+    grid-area: izq;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .izq h4{
+    font-size: larger;
+    font-weight: 900;
+  }
+  .izq p{
+    margin: 20px;
+  }
+  .izq form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mpromos{
+    color: white;
+    flex: 1;
+    margin-right: 170px;
+    padding: 5px;
+    padding-right: 30px;
+    background-color: #000000;
+    border-style: hidden;
+    border-radius: 3px;
+  }
+  .bpromos{
+    background-color: #000000;
+    color: #808080;
+    border: solid 2px #4b4a4a;
+    padding: 4px 15px;
+    border-radius: 7px;
+  }
+  .izq img{
+    width: 150px;
+  }
+  .izq i{
+    width: 30px;
+    height: 20px;
+  }
+  .der{
+    grid-area: der;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .der img{
+    width: 70%;
+    height: 35%;
+    object-fit:cover;
+  }
+  .der p{
+    margin: 20px;
+  }
+  .redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .redes a{
+    width: 23px;
+    height: 23px;
+    margin: 10px
+  }
