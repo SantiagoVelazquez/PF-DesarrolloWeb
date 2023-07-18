@@ -17,6 +17,9 @@
     height: 27px;
     width:auto
    }
+   nav .menu{
+    display: none;
+   }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -59,7 +62,6 @@
     width: auto;
     height: auto;
     object-fit: cover;
-
   }
   .tarjeta {
     display: flex;
@@ -104,6 +106,10 @@
     width: 120px;
     align-self: flex-end;
     margin-top: 90px;
+  }
+  .tarjeta button:hover {
+    background-color:#302f2f;
+    border: solid color(#979797);
   }
   .tarjeta button a {
     text-decoration: none;
@@ -313,6 +319,9 @@
     color: #ffffff;
     background-color: #181818;
   }
+  .boton:hover{
+    background-color:#000000;
+  }
   .formsorteo input, textarea {
     background-color: #555555;
     border: none;
@@ -321,7 +330,6 @@
     background-color: #555555;
     border: solid #c4c4c4 1px;
   }
-
   footer{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #302f2f;
@@ -431,6 +439,37 @@
     }
   }
   @media(max-width: 768px){
+    nav .menu{
+      display: block;
+      width: 40px;
+      height: auto;
+    }
+    nav .menu:hover + ul{
+      left: 0px;
+    }
+    nav ul:hover{
+      left: 0px;
+    }
+    nav{
+      order: -1;
+    }
+    nav ul{
+      position: fixed;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      background-color: #474747;
+      margin: 0px;
+      width: 50vw;
+      height: 100vh;
+      top: 0px;
+      left: -500px;
+      z-index: 111;
+      transition: 0.5s;
+    }
+    nav ul li a{
+      color: #000000;
+    }
     .tarjeta h3 {
       font-size: 30px;
       margin-left: 40px;
@@ -451,6 +490,5 @@
       height: 100%;
       object-fit: contain;
     }
-
   }
 
