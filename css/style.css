@@ -124,6 +124,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .indumentaria{
+    margin: 20px;
+    font-size: 35px;
+  }
   main h3{
     font-size: 40px;
     margin-left: 30px;
@@ -309,9 +313,6 @@
     color: #ffffff;
     background-color: #181818;
   }
-  
-  
-
   .formsorteo input, textarea {
     background-color: #555555;
     border: none;
@@ -319,7 +320,6 @@
   .formsorteo input:focus, textarea:focus {
     background-color: #555555;
     border: solid #c4c4c4 1px;
-  
   }
 
   footer{
@@ -401,13 +401,26 @@
     height: 23px;
     margin: 10px
   }
-
-
+  @media(max-width: 1024px){
+    .maps iframe{
+      width: 450px;
+      height: 200px;
+    }
+    .maps h3{
+      font-size: 30px;
+    }
+  }
   @media(max-width: 992px){
 
     .tarjeta h3 {
       font-size: 40px;
       margin-left: 40px;
+    }
+    .tarjeta button {
+      margin-top: 130px;
+    }
+    .formf, .mpromos, .bpromos{
+      margin: 10px;
     }
     .logo {
       margin: 5px;
@@ -421,6 +434,9 @@
     .tarjeta h3 {
       font-size: 30px;
       margin-left: 40px;
+    }
+    .tarjeta button {
+      margin-top: 150px;
     }
     footer{
       display: flex;
