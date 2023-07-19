@@ -470,9 +470,30 @@
     nav ul li a{
       color: #000000;
     }
+    .tarjeta {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
+    .tarjeta img {
+      width: 100%;
+    }
+    .tarjeta button {
+      margin-top: 0%;
+    }
     .tarjeta h3 {
-      font-size: 30px;
-      margin-left: 40px;
+      align-self: center;
+      justify-self: center;
+      margin: 5px;
+    }
+    .tarjeta ul {
+      list-style-type:none;
+      align-self: self-start;
+      margin-left: 75px;
+    }
+    .tarjeta li{
+      font-size: 25px;
     }
     .tarjeta button {
       margin-top: 150px;
