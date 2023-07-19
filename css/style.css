@@ -250,7 +250,7 @@
   }
   .formsorteo{
     display: grid;
-    width: 850px;
+    width: auto;
     margin: 25px;
     padding: 10px;
     gap: 8px;
@@ -411,8 +411,8 @@
   }
   @media(max-width: 1024px){
     .maps iframe{
-      width: 450px;
-      height: 200px;
+      width: auto;
+      height: auto;
     }
     .maps h3{
       font-size: 30px;
@@ -477,6 +477,68 @@
     .tarjeta button {
       margin-top: 150px;
     }
+    .contactosarriba{
+      display: flex;
+      flex-direction: column;
+    }
+    .maps{
+      display: flex ; 
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      gap: 10px; 
+    }
+    .formsorteo{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+ 
+    .in-nombre{
+      grid-column: 2/4;
+      grid-row: 1/2;
+    }
+    .lb-apellido{
+      grid-column: 1/2;
+      grid-row: 2/3;
+
+    }
+    .in-apellido{
+      grid-column: 2/4;
+      grid-row: 2/3;
+    }
+    .lb-telefono{
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .in-telefono{
+      grid-column: 2/4;
+      grid-row: 3/4;
+    }
+    .lb-porque{
+      grid-column: 1/2;
+      grid-row: 5/6;
+    }
+    .ta-porque{
+      grid-column: 2/4;
+      grid-row: 5/6;
+    }
+    .lb-email{
+      grid-column: 1/2;
+      grid-row: 4/5;
+      height: 21px;
+      color: #ffffff;
+    }
+    .in-email{
+      grid-column: 2/4;
+      grid-row: 4/5;
+      height: 21px;
+    }
+    .boton{
+      grid-column: 2/3;
+      grid-row: 6/7;
+      padding: 7px;
+    }
+
+
     footer{
       display: flex;
       flex-direction: column;
