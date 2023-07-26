@@ -64,7 +64,10 @@ main h3 {
   color: #5e5e5e;
 }
 
-.carousel-item img {
+.carousel {
+  z-index: -1;
+}
+.carousel .carousel-item img {
   width: auto;
   height: auto;
   object-fit: cover;
@@ -119,14 +122,14 @@ main h3 {
   align-self: flex-end;
   margin-top: 90px;
 }
+.tarjeta button:hover {
+  background-color: #000000;
+  border: solid color(#979797);
+}
 .tarjeta button a {
   text-decoration: none;
   color: #ffffff;
   padding: 5px;
-}
-.tarjeta button:hover {
-  background-color: #000000;
-  border: solid color(#979797);
 }
 
 .img-contain {

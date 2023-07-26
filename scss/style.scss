@@ -61,11 +61,15 @@ main {
   margin: 15px;
   color: #5e5e5e;
 }
-.carousel-item img{
-  width: auto;
-  height: auto;
-  object-fit: cover;
+.carousel{
+  z-index: -1;
+  .carousel-item img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
 }
+
 .tarjeta {
   display: flex;
   width: auto;
@@ -113,16 +117,17 @@ main {
     width: 120px;
     align-self: flex-end;
     margin-top: 90px;
+    &:hover {
+      background-color:#000000;
+      border: solid color(#979797);
+    }
     a {
         text-decoration: none;
         color: #ffffff;
         padding: 5px;
       }
   }
-  button:hover {
-    background-color:#000000;
-    border: solid color(#979797);
-  }
+
 }
 .img-contain {
   max-width: 100%;
@@ -133,6 +138,7 @@ main {
     object-fit: contain;
   }
 }
+
 
 .cajas{
   display: flex;
