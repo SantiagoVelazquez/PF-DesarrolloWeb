@@ -470,9 +470,7 @@ footer .der .redes a {
   }
   nav .menu:hover + ul {
     left: 0px;
-  }
-  nav ul:hover {
-    left: 0px;
+    z-index: -2;
   }
   nav ul {
     position: fixed;
@@ -487,6 +485,9 @@ footer .der .redes a {
     left: -500px;
     z-index: 111;
     transition: 0.5s;
+  }
+  nav ul:hover {
+    left: 0px;
   }
   nav ul a {
     color: #000000;
