@@ -1,0 +1,79 @@
+footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: $bg-color;
+    color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "izq der";
+    padding: 25px;
+    .izq{
+      grid-area: izq;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      h4{
+          font-size: larger;
+          font-weight: 900;
+        }
+      p{
+          margin: 20px;
+        }
+      form{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          .mpromos{
+              color: white;
+              flex: 1;
+              margin-right: 170px;
+              padding: 5px;
+              padding-right: 30px;
+              background-color: #000000;
+              border-style: hidden;
+              border-radius: 3px;
+            }
+            .bpromos{
+              background-color: #000000;
+              color: #808080;
+              border: solid 2px #4b4a4a;
+              padding: 4px 15px;
+              border-radius: 7px;
+            }
+        }
+        img{
+          width: 150px;
+        }
+        i{
+          width: 30px;
+          height: 20px;
+        }
+    }
+    .der{
+      grid-area: der;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      img{
+          width: 70%;
+          height: 35%;
+          object-fit:cover;
+        }
+        p{
+          margin: 20px;
+        }
+        .redes{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          a{
+              width: 23px;
+              height: 23px;
+              margin: 10px
+            }
+        }
+    }
+  }

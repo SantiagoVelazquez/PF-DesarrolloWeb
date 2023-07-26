@@ -1,0 +1,93 @@
+.sorteo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #700303;
+    p{
+      font-weight: 600;
+      color: #ffffff;
+      }
+      .formsorteo{
+          display: grid;
+          width: auto;
+          margin: 25px;
+          padding: 10px;
+          gap: 8px;
+          background-color: #222222;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          input, textarea {
+              background-color: #555555;
+              border: none;
+            }
+            input:focus, textarea:focus {
+              background-color: #555555;
+              border: solid #c4c4c4 1px;
+            }
+        }
+        .lb-nombre{
+          grid-column: 1/2;
+          grid-row: 1/2;
+          height: 21px;
+          color: #ffffff;
+        }
+        .in-nombre{
+          grid-column: 2/3;
+          grid-row: 1/2;
+          height: 21px;
+        }
+        .lb-apellido{
+          grid-column: 3/4;
+          grid-row: 1/2;
+          height: 21px;
+          color: #ffffff;
+        }
+        .in-apellido{
+          grid-column: 4/5;
+          grid-row: 1/2;
+          height: 21px;
+        }
+        .lb-telefono{
+          grid-column: 1/2;
+          grid-row: 2/3;
+          height: 21px;
+          color: #ffffff;
+        }
+        .in-telefono{
+          grid-column: 2/3;
+          grid-row: 2/3;
+          height: 21px;
+        }
+        .lb-porque{
+          grid-column: 3/4;
+          grid-row: 2/3;
+          height: 21px;
+          color: #ffffff;
+        }
+        .ta-porque{
+          grid-column: 4/5;
+          grid-row: 2/4;
+        }
+        .lb-email{
+          grid-column: 1/2;
+          grid-row: 3/4;
+          height: 21px;
+          color: #ffffff;
+        }
+        .in-email{
+          grid-column: 2/4;
+          grid-row: 3/4;
+          height: 21px;
+        }
+        .boton{
+          grid-column: 2/4;
+          grid-row: 4/5;
+          padding: 7px;
+          border-radius: 5px;
+          color: #ffffff;
+          background-color: #181818;
+        }
+        .boton:hover{
+          background-color:#000000;
+        }
+  }
+  

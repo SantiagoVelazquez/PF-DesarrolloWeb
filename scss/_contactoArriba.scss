@@ -1,0 +1,36 @@
+.contactosarriba{
+    display: flex;
+    .contac{
+      padding: 20px;
+      margin: 20px;
+      color: #cccccc;
+    }
+    .redes-contactos {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-top: 20px;
+      padding: 25px;
+      div{
+        display: flex;
+        align-items: center;
+      }
+      a {
+          display: inline-block;
+          margin: 5px;
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: bold;
+          img {
+              width: 30px;
+              height: 30px;
+              margin-left: 5px;
+            }
+        }
+    }
+  }
+  .maps{
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+  }
