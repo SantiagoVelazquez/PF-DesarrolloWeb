@@ -19,7 +19,7 @@
           margin-top: 130px;
         }
     }
-    .formf, .mpromos, .bpromos{
+    .formf, .mpromos, .bpromos {
       margin: 10px;
     }
     .logo {
@@ -34,18 +34,18 @@
   @media(max-width: 768px){
     nav {
       order: -1;
-      .menu{
+      .menu {
       display: block;
       width: 40px;
       height: auto;
       transition: 0.5s;
       gap: 15px;
-      &:hover + ul{
+      &:hover + ul {
         left: 0px;
         z-index: 2;
       }
       }
-         ul{
+         ul {
           position: fixed;
           flex-direction: column;
           align-items: center;
@@ -58,10 +58,10 @@
           left: -500px;
           z-index: 111;
           transition: 0.5s;
-          &:hover{
+          &:hover {
             left: 0px;
           }
-          a{
+          a {
               color: #000000;
             }
         }

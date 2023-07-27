@@ -2,6 +2,7 @@
 @import "reset";
 @import "variables";
 @import "extends";
+@import "contain";
 @import "header";
 @import "main";
 @import "carusel";
@@ -13,12 +14,3 @@
 @import "nosotros";
 @import "mediaQuery";
 
-.img-contain {
-  max-width: 100%;
-  height: auto;
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-}

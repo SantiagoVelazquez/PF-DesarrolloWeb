@@ -1,4 +1,4 @@
-footer{
+footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: $bg-color;
     color: #000000;
@@ -6,25 +6,25 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "izq der";
     padding: 25px;
-    .izq{
+    .izq {
       grid-area: izq;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      h4{
+      h4 {
           font-size: larger;
           font-weight: 900;
         }
-      p{
+      p {
           margin: 20px;
         }
-      form{
+      form {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
-          .mpromos{
+          .mpromos {
               color: white;
               flex: 1;
               margin-right: 170px;
@@ -34,7 +34,7 @@ footer{
               border-style: hidden;
               border-radius: 3px;
             }
-            .bpromos{
+            .bpromos {
               background-color: #000000;
               color: #808080;
               border: solid 2px #4b4a4a;
@@ -42,34 +42,34 @@ footer{
               border-radius: 7px;
             }
         }
-        img{
+        img {
           width: 150px;
         }
-        i{
+        i {
           width: 30px;
           height: 20px;
         }
     }
-    .der{
+    .der {
       grid-area: der;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      img{
+      img {
           width: 70%;
           height: 35%;
           object-fit:cover;
         }
-        p{
+        p {
           margin: 20px;
         }
-        .redes{
+        .redes {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center;
-          a{
+          a {
               width: 23px;
               height: 23px;
               margin: 10px
