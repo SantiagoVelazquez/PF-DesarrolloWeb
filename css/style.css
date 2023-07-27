@@ -452,6 +452,8 @@ footer .der .redes a {
     display: block;
     width: 40px;
     height: auto;
+    transition: 0.5s;
+    gap: 15px;
   }
   nav .menu:hover + ul {
     left: 0px;

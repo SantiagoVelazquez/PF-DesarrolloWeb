@@ -38,6 +38,8 @@
       display: block;
       width: 40px;
       height: auto;
+      transition: 0.5s;
+      gap: 15px;
       &:hover + ul{
         left: 0px;
         z-index: 2;
