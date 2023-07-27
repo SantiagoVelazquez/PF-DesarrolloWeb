@@ -96,9 +96,6 @@ main .tit1 {
   border: #c4c4c4 solid 2px;
 }
 
-.carousel {
-  z-index: -1;
-}
 .carousel .carousel-item img {
   width: auto;
   height: auto;
