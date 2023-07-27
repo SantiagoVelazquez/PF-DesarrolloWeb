@@ -72,12 +72,17 @@
       flex-direction: column;
       width: auto;
       height: auto;
+      .img-tarjeta{
+      overflow: hidden;
+      border-radius: 15px;
+      }
       img {
-          width: 100%;
+        width: 100%;
+        &:hover {
+          transform: scale(1.08);
         }
-        button {
-          margin-top: 0%;
-        }
+      }
+      .tarjeta-texto {
         h3 {
           align-self: center;
           justify-self: center;
@@ -94,6 +99,7 @@
         button {
           margin-top: 150px;
         }
+      }       
     }
   
     .contactosarriba{
