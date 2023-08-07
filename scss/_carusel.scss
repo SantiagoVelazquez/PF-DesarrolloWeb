@@ -1,7 +1,12 @@
 .carousel {
-    .carousel-item img {
-      width: auto;
+    img {
+      width: 100%;
       height: auto;
-      object-fit: cover;
+      object-fit: contain;
+      
     }
+  }
+  .carousel-inner{
+    height: 450px;
+    width: 100%;
   }
