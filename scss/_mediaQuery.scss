@@ -179,3 +179,16 @@
         }
       }
   }
+  @media(max-width: 576px){
+    footer form{
+      width: 200px;
+      .mpromos {
+        margin-right: 0px;
+        padding: 5px;
+        padding-right: 0px;
+      }
+      .bpromos {
+        padding: 4px 15px;
+      }
+    }
+  }

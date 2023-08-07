@@ -113,7 +113,7 @@ main .tit1 {
 }
 
 .carousel-inner {
-  height: 450px;
+  max-height: 450px;
   width: 100%;
 }
 
@@ -616,6 +616,19 @@ footer .der .redes a {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+}
+@media (max-width: 576px) {
+  footer form {
+    width: 200px;
+  }
+  footer form .mpromos {
+    margin-right: 0px;
+    padding: 5px;
+    padding-right: 0px;
+  }
+  footer form .bpromos {
+    padding: 4px 15px;
   }
 }
 
