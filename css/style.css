@@ -16,7 +16,7 @@ html {
   border: solid color(#ffffff);
   border-radius: 5px;
   height: 40px;
-  width: 120px;
+  max-width: 120px;
   align-self: flex-end;
 }
 .cajas .producto button:hover, .tarjeta button:hover {
@@ -202,6 +202,7 @@ main .tit1 {
   width: 150px;
   height: 36px;
   margin-left: 15px;
+  margin-right: 40px;
   border-radius: 5px;
   color: #ffffff;
   border: solid color(#ffffff);
@@ -629,6 +630,13 @@ footer .der .redes a {
   }
   footer form .bpromos {
     padding: 4px 15px;
+  }
+  .producto select {
+    width: 90px;
+  }
+  .cajas p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
 

@@ -163,12 +163,12 @@
           padding: 7px;
         }
     }
-  
+
     footer{
       display: flex;
       flex-direction: column;
     }
-  
+
     .img-contain {
       max-width: 100%;
       height: auto;
@@ -179,6 +179,7 @@
         }
       }
   }
+
   @media(max-width: 576px){
     footer form{
       width: 200px;
@@ -189,6 +190,14 @@
       }
       .bpromos {
         padding: 4px 15px;
-      }
+      }  
+    }
+    .producto select {
+      width: 90px;
+    }
+    .cajas p{
+      margin-bottom: 0px;
+      padding-bottom: 0px;
     }
   }
+  
